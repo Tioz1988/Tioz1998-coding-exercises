@@ -1,0 +1,21 @@
+let users = [
+    {
+        username: 'Mo244',
+        followers: 34,
+        is_followed: false
+    },
+    {
+        username: 'Angela_boo',
+        followers: 133,
+        is_followed: true
+    },
+    {
+        username: 'SexyRick21',
+        followers: 234421,
+        is_followed: true
+    },
+]
+
+for (let i=0;i<=users.length-1;i++) {
+    users[i].is_followed === true ? console.log(users[i].username+" "+"is "+"followed") : console.log(users[i].username+" is not followed");
+}
