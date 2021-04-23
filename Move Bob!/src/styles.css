@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+}
+#kopf {
+    position: absolute;
+    background-color: rgb(231, 208, 145);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#boxAugen {
+/*     background-color: black; */
+    width: 250px;
+    height: 100px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+#augeLinks {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pupilleLinks {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+#augeRechts {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pupilleRechts {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+#mund {
+    height: 100px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: black;
+}
