@@ -1,0 +1,62 @@
+body{
+    background-image:url(bilder/background.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    text-align: center;
+}
+#main {
+    color: white;
+}
+#title {
+    background-color: rgb(37, 37, 36);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px 20px 5px 20px;
+}
+#img-div {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(37, 37, 36);
+    padding: 20px 20px 10px 20px;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+}
+#img-caption {
+    padding-top: 5px;
+}
+#tribute-info {
+    background-color: rgb(37, 37, 36);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px 20px 5px 20px;
+}
+ul {
+    float: center;
+}
+#tribute-info-works {
+    background-color: rgb(37, 37, 36);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px 20px 5px 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#tribute-link-container {
+    background-color: rgb(37, 37, 36);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px 20px 5px 20px;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: tomato;
+}
