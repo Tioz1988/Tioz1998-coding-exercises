@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- kurze beschreibung der seite -->
+            <meta name="description" content="This is a Survey Form for Tioz german cuisine.">
+            <!-- Für Webscraper -->
+            <meta property="og:type" content="website">
+            <meta property="og:Survey Form" content="This is a Survey Form for Tioz german cuisine."> 
+            <!-- verbindet html mit css -->
+            <link rel="stylesheet" href="assets/style.css">
+            <!-- lässt uns google fonts benutzen -->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <!-- schrift im tab -->
+            <title>Tioz cuisine survey form</title>
+        </head>
+        <body>
+            <div id="main">
+                <div id="overTitle">
+                    <h1 id="title">Tioz Kitchen survey form.</h1>
+                    <p id="description">Thank you for participating in our new servey! Please fill out this survey and you may win a free meal.</p>
+                </div>
+                <form id="survey-form" action="hierWürdenDieDatenHingesendetWerden">
+                    <!-- Felder zum normalen eintragen -->
+                    <div id="textfelder">
+                        <label id="name-label" class="labelTextFelder" for ="name">First Name</label>
+                            <input id="name" class="inputPersönlicheDaten" type="text" placeholder="Enter yor first name" required>
+                        <label id="lastName-label" class="labelTextFelder" for =lastName>Last Name</label>
+                            <input id="lastName" class="inputPersönlicheDaten" type="text" placeholder="Enter your last name" required>
+                        <label id="number-label" class="labelTextFelder" for =number>Age</label>
+                            <input id="number" class="inputPersönlicheDaten" type="number" min="18" max="120" placeholder="Enter your age" required>
+                        <label id="email-label" class="labelTextFelder" for =email>Email</label>
+                            <input id="email" class="inputPersönlicheDaten" type="email" placeholder="Enter your Email" required>
+                    </div>
+                        <!-- Dropdown menu -->
+                    <div id="dropdownContainer"> 
+                        <label for="dropdown">What Menu are you most interested in?</label>
+                            <select name="cars" id="dropdown">
+                                <option value="pizza">Pizza</option>
+                                <option value="pasta">Pasta</option>
+                                <option value="salat">Salat</option>
+                                <option value="steak">Steak</option>
+                            </select>
+                    </div>   
+                    <!-- Radio buttons -->
+                    <div id="radioButtonsContainer">
+                        <label class="radioButtons" for="order">What delivery option would you most likely choose?</label>
+                            <input id="water" type="radio" name="order" value="order">Takeout
+                            <input id="beer" type="radio" name="order" value="order">Delivery
+                    </div>
+                    <!-- Checkboxes -->
+                    <div id="checkboxContainer">
+                        <label class="checkboxLabel" for="beverage">What beverages would you like to order the most?</label>
+                            <input id="beer" value="beer" type="checkbox" name="beverage">Beer
+                            <input id="cola" value="cola" type="checkbox" name="beverage">Cola
+                            <input id="coffee" value="coffee" type="checkbox" name="beverage">Coffee
+                            <input id="water" value="water" type="checkbox" name="beverage">Water
+                    </div>
+                        <!-- Textfeld -->
+                    <div id="textfeldContainer">
+                        <label for="commentSection">Please enter menu or drinkoptions you would like to see in the future!</label>
+                            <input class="commentSection" type="text">
+                    </div>
+                    <!-- Submit button -->
+                    <div id="buttonContainer">
+                        <button id="submit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </body>
+    </html>
