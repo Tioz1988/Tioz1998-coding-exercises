@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #CBD5DD;
+}
+#header {
+    background-color: #CBD5DD;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    z-index: 5;
+
+}
+#header-img {
+    height: 150px;
+    width: auto; 
+    color: rgb(0, 0, 0);
+}
+nav {
+    width: 100%;
+}
+.nav-link {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#main {
+    margin-top: 150px;
+}
+#about-us-container {
+    background-color:#B5BDC4;
+}
+#about-us {
+    background-color:#B5BDC4;
+    margin: 0 auto;
+    max-width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#video-container {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#video {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 750px;
+    max-height: 500px;
+}
+#produktKarten-titel {
+    background-color:#B5BDC4;
+    padding-top: 25px;
+    padding-bottom: 50px; 
+}
+#produktKarten-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#B5BDC4;
+}
+.produktKarte{
+    width: 150px;
+    height: 250px;
+    padding: 15px 15px;
+    margin: 10px 10px 0 10px;
+    border: 2px solid red;
+    position: relative;
+}
+.produktKarte-titel {
+    font-size: 1.2em;
+}
+.produktKarte-preis {
+    margin-top: 10px;
+}
+.produktKarte-beschreibung {
+    font-size: 0.8em;
+    margin-top: 25px;
+    text-align: left;
+}
+.produktKarte-button {
+    position: absolute;
+    bottom: 15px;
+    left: 55px;
+}
+#form {
+    text-align: center;
+}
+@media (max-width: 900px) {
+    .nav-link {
+        display: none;
+    }
+}

@@ -1,0 +1,114 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- kurze beschreibung der seite -->
+    <meta name="description" content="This is a product landing page for Schneider Bass cuisine.">
+    <!-- Für Webscraper -->
+    <meta property="og:type" content="website">
+    <meta property="og:Survey Form" content="This is a product landing page for Schneider Bass cuisine.">
+    <!-- verbindet html mit css -->
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Schneider Bass Shop</title>
+</head>
+<body>
+    <header id="header">
+        <!-- firmenlogo -->
+        <img id="header-img" src="assets/bilder/Tioz Bass Shop Logo.png" alt="This is a logo thas has red bass headboard and the name Tioz Bass Shop">
+        <!-- navigationsleiste -->
+        <nav id="nav-bar">
+           <ul>
+                <li><a class="nav-link" href="#about-us">ABOUT US</a></li>
+                <li><a class="nav-link" href="#video">LEARN TO PLAY</a></li>
+                <li><a class="nav-link" href="#produktKarten-container"> PRODUCTS</a></li>
+                <li><a class="nav-link" href="#form">NEWSLETTER</a></li>
+            </ul>
+     </nav>
+    </header>
+    <main id="main">
+        <!-- Shop beschreibung -->
+        <div id="about-us-container">
+        <div id="about-us">
+            <h1>About Tioz Bass Shop</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio excepturi repudiandae cum reiciendis, et, recusandae itaque natus delectus cupiditate deserunt aperiam sequi porro a animi aliquid repellat molestias minima quam?
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, in? Optio laudantium dolores est nihil asperiores quidem corporis nam. Praesentium, excepturi nostrum cum iusto quaerat ea necessitatibus aperiam corporis culpa
+            </p>
+        </div>
+       </div>
+        <!-- eingebettetes video -->
+        <div id="video-container">
+            <h1>Learn to play bass!</h1>
+                <iframe id="video"
+                src="https://www.youtube.com/embed/y_p4cSklyik" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+        </div>
+        <!-- produktauswahl -->
+        <div id="produktKarten-titel">
+        <h1>Our products</h1>
+        <div id="produktKarten-container">
+            <!-- Karte 1 -->
+            <div class="produktKarte">
+                <div class="produktKarte-titel">
+                    First Timer
+                </div>
+                <div class="produktKarte-preis">
+                    49,99 €
+                </div>
+                <div class="produktKarte-beschreibung">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis nobis facere doloribus rerum distinctio voluptatem.
+                </div>
+                <button class="produktKarte-button">Buy now</button>
+            </div>
+            <!-- Karte 2 -->
+            <div class="produktKarte">
+                <div class="produktKarte-titel">
+                    Basic
+                </div>
+                <div class="produktKarte-preis">
+                    149,99 €
+                </div>
+                <div class="produktKarte-beschreibung">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis nobis facere doloribus rerum distinctio voluptatem.
+                </div>
+                <button class="produktKarte-button">Buy now</button>
+            </div>
+            <!-- Karte 3 -->
+            <div class="produktKarte">
+                <div class="produktKarte-titel">
+                    Pro
+                </div>
+                <div class="produktKarte-preis">
+                    1149,99 €
+                </div>
+                <div class="produktKarte-beschreibung">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis nobis facere doloribus rerum distinctio voluptatem.
+                </div>
+                <button class="produktKarte-button">Buy now</button>
+            </div>
+        </div>
+        </div>
+        <!-- newsletter anmeldung -->
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h1>Subscribe to our newsletter!</h1>
+            <label id="email-label" for=email>Email =</label>
+            <input id="email" type="email" name="email" placeholder="Please enter your email here" required>
+            <input id="submit" type="submit" ></input>
+        </form>
+    </main>
+</body>
+</html>
+<!-- TODO 
+    nav link about us zu tief, 
+ -->
