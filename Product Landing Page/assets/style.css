@@ -37,7 +37,7 @@ ul {
     justify-content: space-around;
 }
 #main {
-    margin-top: 150px;
+    padding-top: 150px;
 }
 #about-us-container {
     background-color:#B5BDC4;
@@ -78,14 +78,16 @@ ul {
     height: 250px;
     padding: 15px 15px;
     margin: 10px 10px 0 10px;
-    border: 2px solid red;
+    border-top: 5px solid red;
     position: relative;
 }
 .produktKarte-titel {
     font-size: 1.2em;
+    font-weight: 700;
 }
 .produktKarte-preis {
     margin-top: 10px;
+    font-weight: 600;
 }
 .produktKarte-beschreibung {
     font-size: 0.8em;
@@ -95,7 +97,7 @@ ul {
 .produktKarte-button {
     position: absolute;
     bottom: 15px;
-    left: 55px;
+    left: 15px;
 }
 #form {
     text-align: center;
